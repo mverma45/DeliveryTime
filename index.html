@@ -5,107 +5,119 @@
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="./Style/style.css" />
+		<script
+			src="./JavaScript/dTime.js"
+			defer></script>
 		<title>Deliver with Confidence</title>
 	</head>
 	<body>
 		<h1>Deliver with Confidence with DeliveryTime</h1>
 		<p>Welcome</p>
 
-		<section>
-			<p>Amazon Listed Start Time and Finish Time</p>
-			<label for="STime">Start Time:</label>
+		<section class="container">
+			<section>
+				<p>Start Time and Finish Time</p>
+				<label for="STime">Start Time:</label>
+				<input
+					type="time"
+					name="time"
+					id="time" />
+				<label for="FTime">Finish Time:</label>
+				<input
+					type="time"
+					name="time"
+					id="time" />
+			</section>
+			<section>
+				<p>Actual Start Time and Finish Time</p>
+				<label for="ASTime">Start Time:</label>
+				<input
+					type="time"
+					name="time"
+					id="time" />
+				<label for="AFTime">Finish Time:</label>
+				<input
+					type="time"
+					name="time"
+					id="time" />
+			</section>
+			<section>
+				<label for="pay">Pay $</label>
+				<input
+					type="number"
+					name="number"
+					id="number" />
+			</section>
+			<section>
+				<label for="miles">Miles Driven</label>
+				<input
+					type="number"
+					name="number"
+					id="number" />
+			</section>
+			<section>
+				<label for="FTank">Full Tank (check if yes)</label>
+				<input
+					type="checkbox"
+					value="checkbox" />
+			</section>
+			<section>
+				<label for="howMuchGas">How Much $</label>
+				<input
+					type="number"
+					name="number"
+					id="number" />
+			</section>
+			<section>
+				<label for="howMuchFood">Spent on Food $</label>
+				<input
+					type="number"
+					name="number"
+					id="number" />
+			</section>
+			<section>
+				<label for="howMuchGas">How Much on Gas$</label>
+				<input
+					type="number"
+					name="number"
+					id="number" />
+			</section>
+			<section>
+				<label for="Deliver">Deliveries</label>
+				<input
+					type="number"
+					name="number"
+					id="number" />
+			</section>
+			<section>
+				<p>Optional</p>
+				<label for="WhereTo">Where were the Deliver done?</label>
+				<input
+					type="text"
+					name="text"
+					id="text" />
+			</section>
+			<section>
+				<label for="sAreaR">Staging Area/Route #</label>
+				<input
+					type="text"
+					name="text"
+					id="text" />
+			</section>
+			<section>
+				<label for="warehouse">Warehouse</label>
+				<input
+					type="text"
+					name="text"
+					id="text" />
+			</section>
 			<input
-				type="time"
-				name="time"
-				id="time" />
-			<label for="FTime">Finish Time:</label>
-			<input
-				type="time"
-				name="time"
-				id="time" />
-		</section>
-		<section>
-			<p>Actual Start Time and Finish Time</p>
-			<label for="ASTime">Start Time:</label>
-			<input
-				type="time"
-				name="time"
-				id="time" />
-			<label for="AFTime">Finish Time:</label>
-			<input
-				type="time"
-				name="time"
-				id="time" />
-		</section>
-		<section>
-			<label for="pay">Pay $</label>
-			<input
-				type="number"
-				name="number"
-				id="number" />
-		</section>
-		<section>
-			<label for="miles">Miles Driven</label>
-			<input
-				type="number"
-				name="number"
-				id="number" />
-		</section>
-		<section>
-			<label for="FTank">Full Tank (check if yes)</label>
-			<input
-				type="checkbox"
-				value="checkbox" />
-		</section>
-		<section>
-			<label for="howMuchGas">How Much $</label>
-			<input
-				type="number"
-				name="number"
-				id="number" />
-		</section>
-		<section>
-			<label for="howMuchFood">Spent on Food $</label>
-			<input
-				type="number"
-				name="number"
-				id="number" />
-		</section>
-		<section>
-			<label for="howMuchGas">How Much on Gas$</label>
-			<input
-				type="number"
-				name="number"
-				id="number" />
-		</section>
-		<section>
-			<label for="Deliver">Deliveries</label>
-			<input
-				type="number"
-				name="number"
-				id="number" />
-		</section>
-		<section>
-			<p>Optional</p>
-			<label for="WhereTo">Where were the Deliver done?</label>
-			<input
-				type="text"
-				name="text"
-				id="text" />
-		</section>
-		<section>
-			<label for="sAreaR">Staging Area/Route #</label>
-			<input
-				type="text"
-				name="text"
-				id="text" />
-		</section>
-		<section>
-			<label for="warehouse">Warehouse</label>
-			<input
-				type="text"
-				name="text"
-				id="text" />
+				class="btn"
+				type="submit"
+				value="submit" />
 		</section>
 	</body>
 </html>

@@ -1,0 +1,18 @@
+body {
+	background-image: url(../Images/DeliveryTime.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.btn {
+	background-color: #04aa6d; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 3rem;
+}
